@@ -13,8 +13,12 @@ score = Score()
 pianoPart = Part()
 mainPianoPhrase = Phrase()
 mainPianoPhrase.setTempo(190);
-pitches1   = [A3, G4, C5, B4, B4, G4]
-durations1 = [QN, QN, DQN, DQN, DQN, HN]
+
+# notas
+pitches1   = [A3, G4, C5,       B4, G4, REST]
+durations1 = [QN, QN, DQN, QN + EN, HN,   QN]
+
+## agregar
 mainPianoPhrase.addNoteList(pitches1, durations1)
 pianoPart.addPhrase(mainPianoPhrase)
 score.addPart(pianoPart)
