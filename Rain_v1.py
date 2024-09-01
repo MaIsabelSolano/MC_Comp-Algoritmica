@@ -128,6 +128,7 @@ PPP36 = [G4,       A4,      A4, REST]
 DDD36 = [DQN, EN + QN, QN + HN,   HN]
 
 
+
 ## agregar
 mainPianoPhrase.addNoteList(PPP1, DDD1)
 mainPianoPhrase.addNoteList(PPP1, DDD1)
@@ -157,6 +158,7 @@ mainPianoPhrase.addNoteList(PPP12, DDD12)
 mainPianoPhrase.addNoteList(PPP16, DDD16)
 mainPianoPhrase.addNoteList(PPP17, DDD17)
 mainPianoPhrase.addNoteList(PPP18, DDD18)
+
 mainPianoPhrase.addNoteList(PPP19, DDD19)
 mainPianoPhrase.addNoteList(PPP20, DDD20)
 mainPianoPhrase.addNoteList(PPP21, DDD21)
@@ -182,6 +184,15 @@ mainPianoPhrase.addNoteList(PPP7, DDD7)
 mainPianoPhrase.addNoteList(PPP8, DDD8)
 mainPianoPhrase.addNoteList(PPP7, DDD7)
 mainPianoPhrase.addNoteList(PPP36, DDD36)
+mainPianoPhrase.addNoteList(PPP10, DDD10)
+
+mainPianoPhrase.addNoteList(PPP11, DDD11)
+mainPianoPhrase.addNoteList(PPP12, DDD12)
+mainPianoPhrase.addNoteList(PPP16, DDD16)
+mainPianoPhrase.addNoteList(PPP17, DDD17)
+mainPianoPhrase.addNoteList(PPP18, DDD18)
+
+mainPianoPhrase.addNoteList(PPP19, DDD19)
 
 
 
