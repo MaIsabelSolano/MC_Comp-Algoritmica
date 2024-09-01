@@ -127,6 +127,105 @@ DDD35 = [  HN,   QN, QN]
 PPP36 = [G4,       A4,      A4, REST]
 DDD36 = [DQN, EN + QN, QN + HN,   HN]
 
+PPP37 = [B4, B4,      B4, E4,      C5, B4, A4, REST, E4]
+DDD37 = [QN, EN, EN + EN, QN, EN + EN, EN, QN,   QN, QN]
+
+PPP38 = [GS4,      E4,      B5, REST, A4, E5]
+DDD38 = [DQN, EN + QN, QN + QN,   QN, QN, QN]
+
+PPP39 = [D5, REST, C5, D5, E5, G5, E5, D5, C5]
+DDD39 = [QN,   QN, QN, QN, QN, EN, EN, QN, QN]
+
+PPP40 = [ B4,      C5, REST, A4, E5]
+DDD40 = [DHN, QN + QN,   QN, QN, QN]
+
+PPP41 = [D5, REST, A4, E5, D5, D5, C5, B4]
+DDD41 = [QN, QN, QN, QN, QN, QN, QN, QN]
+
+PPP42 = [B4,      C5, REST, A4, E5]
+DDD42 = [HN, QN + QN,   QN, QN, QN]
+
+PPP43 = [B4, B4, B4, D5,     C5, REST, A4]
+DDD43 = [QN, QN, QN, EN, EN + HN,  QN, QN]
+
+PPP44 = [E5,       A4,      D5, C5, REST, A4]
+DDD44 = [DQN, EN + QN, QN + QN, QN,   QN, QN]
+
+PPP45 = [E5,       A4,      G5, E5, D5, D5, E5,       E5, REST, B4, C5]
+DDD45 = [DQN, EN + QN, QN + QN, QN, QN, QN, QN, DHN + HN,   QN, EN, EN]
+
+PPP46 = [ E4, D4, E4,  C4, A4]
+DDD46 = [DHN, EN, EN, DHN, QN]
+
+PPP47 = [A4, REST, E4, G4, E4, E4, ES4]
+DDD47 = [QN,   QN, EN, SN, SN, EN,  EN]
+
+PPP48 = [E4, C4, B3,      G3, ES4, A4]
+DDD48 = [EN, EN, EN, EN + EN,  QN, EN]
+
+PPP49 = [A4, G4, A4, G4, E4, E4, D4,      C4, C4, A3,      C4, G4, C4, D4]
+DDD49 = [EN, EN, EN, EN, EN, EN, EN, EN + EN, EN, EN, EN + EN, EN, EN, EN]
+
+PPP50 = [E4, ES4, E4, D4, C4, D4, E4, ES4]
+DDD50 = [EN,  EN, EN, EN, EN, EN, EN,  EN]
+
+PPP51 = [E4, D4, C4, D4, E4, ES4, E4, D4, C4, D4, E4]
+DDD51 = [EN, EN, EN, EN, EN,  EN, EN, EN, EN, EN, EN]
+
+PPP52 = [E4, D4, C4, D4, E4, D4, C4, D4]
+DDD52 = [EN, EN, EN, EN, EN, EN, EN, EN]
+
+PPP53 = [E4, D4, C4, D4, E4, G4, E4, G4]
+DDD53 = [EN, EN, EN, EN, EN, EN, EN, EN]
+
+PPP54 = [E4, G4,      E4, REST, G4, C5, C5, D5,      C5, REST, G4, E5, D5, D5, D5]
+DDD54 = [EN, EN, EN + EN,   EN, EN, EN, EN, EN, EN + EN,   EN, EN, EN, EN, EN, WN]
+
+PPP55 = [E5, A4, E5]
+DDD55 = [HN, QN, QN]
+
+PPP56 = [D5, REST, C5, D5, E5, G5, E5, D5, C5]
+DDD56 = [QN,   QN, QN, QN, QN, EN, EN, QN, QN]
+
+PPP57 = [BS4,      C5, REST, A4, E5, D5, REST, A4, E5]
+DDD57 = [DHN, QN + QN,   QN, QN, QN, QN,   QN, QN, QN]
+
+PPP58 = [B4,       C5, REST, A4, E5, D5, REST, A4, E5]
+DDD58 = [DHN, QN + QN,   QN, QN, QN, QN,   QN, QN, QN]
+
+PPP59 = [D5, D5, C5, B4]
+DDD59 = [QN, QN, QN, QN]
+
+PPP60 = [B4, B4,      C5, REST, A4, E5]
+DDD60 = [HN, QN, QN + QN,   QN, QN, QN]
+
+PPP61 = [B4, B4, D5,      C5, REST, A4]
+DDD61 = [HN, QN, EN, EN + HN,   QN, QN]
+
+PPP62 = [E5,       A4,      D5, C5, REST, A4]
+DDD62 = [DQN, EN + QN, QN + QN, QN,   QN, QN]
+
+PPP63 = [E5,       A4,      G5, REST, A4, E5]
+DDD63 = [DQN, EN + QN, QN + QN,   QN, QN, QN]
+
+PPP64 = [ B4,      C5, REST, A4, E5]
+DDD64 = [DHN, QN + QN,   QN, QN, QN]
+
+PPP65 = [D5, REST, A4, E5,      E5, D5, C5, B4]
+DDD65 = [QN,   QN, QN, EN, EN + QN, QN, QN, QN]
+
+PPP66 = [B4, B4,      C5, REST, A4, E5]
+DDD66 = [HN, QN, QN + QN,   QN, QN, QN]
+
+PPP67 = [E5,       A4,      G5, E5, D5, D5]
+DDD67 = [DQN, EN + QN, QN + QN, QN, QN, QN]
+
+PPP68 = [E5,                 E5, REST]
+DDD68 = [QN, DHN + WN + WN + WN,   WN]
+
+PPP69 = [C4, G4,      D4, G4, D4,       E4, REST]
+DDD69 = [HN, QN, QN + QN, QN, QN, QN + DHN,   QN]
+
 
 
 ## agregar
@@ -193,6 +292,56 @@ mainPianoPhrase.addNoteList(PPP17, DDD17)
 mainPianoPhrase.addNoteList(PPP18, DDD18)
 
 mainPianoPhrase.addNoteList(PPP19, DDD19)
+mainPianoPhrase.addNoteList(PPP20, DDD20)
+mainPianoPhrase.addNoteList(PPP21, DDD21)
+mainPianoPhrase.addNoteList(PPP22, DDD22)
+mainPianoPhrase.addNoteList(PPP37, DDD37)
+mainPianoPhrase.addNoteList(PPP24, DDD24)
+
+mainPianoPhrase.addNoteList(PPP38, DDD38)
+mainPianoPhrase.addNoteList(PPP39, DDD39)
+mainPianoPhrase.addNoteList(PPP40, DDD40)
+mainPianoPhrase.addNoteList(PPP41, DDD41)
+mainPianoPhrase.addNoteList(PPP42, DDD42)
+
+mainPianoPhrase.addNoteList(PPP39, DDD39)
+mainPianoPhrase.addNoteList(PPP43, DDD43)
+mainPianoPhrase.addNoteList(PPP44, DDD44)
+mainPianoPhrase.addNoteList(PPP45, DDD45)
+
+mainPianoPhrase.addNoteList(PPP46, DDD46)
+mainPianoPhrase.addNoteList(PPP47, DDD47)
+mainPianoPhrase.addNoteList(PPP48, DDD48)
+mainPianoPhrase.addNoteList(PPP49, DDD49)
+mainPianoPhrase.addNoteList(PPP50, DDD50)
+mainPianoPhrase.addNoteList(PPP51, DDD51)
+mainPianoPhrase.addNoteList(PPP52, DDD52)
+mainPianoPhrase.addNoteList(PPP52, DDD53)
+mainPianoPhrase.addNoteList(PPP54, DDD54)
+
+mainPianoPhrase.addNoteList(PPP55, DDD55)
+mainPianoPhrase.addNoteList(PPP56, DDD56)
+mainPianoPhrase.addNoteList(PPP57, DDD57)
+mainPianoPhrase.addNoteList(PPP58, DDD58)
+mainPianoPhrase.addNoteList(PPP59, DDD59)
+mainPianoPhrase.addNoteList(PPP60, DDD60)
+mainPianoPhrase.addNoteList(PPP56, DDD56)
+mainPianoPhrase.addNoteList(PPP61, DDD61)
+mainPianoPhrase.addNoteList(PPP62, DDD62)
+
+mainPianoPhrase.addNoteList(PPP63, DDD63)
+mainPianoPhrase.addNoteList(PPP56, DDD56)
+mainPianoPhrase.addNoteList(PPP64, DDD64)
+mainPianoPhrase.addNoteList(PPP65, DDD65)
+mainPianoPhrase.addNoteList(PPP66, DDD66)
+mainPianoPhrase.addNoteList(PPP56, DDD56)
+mainPianoPhrase.addNoteList(PPP61, DDD61)
+mainPianoPhrase.addNoteList(PPP62, DDD62)
+mainPianoPhrase.addNoteList(PPP67, DDD67)
+mainPianoPhrase.addNoteList(PPP68, DDD68)
+mainPianoPhrase.addNoteList(PPP3, DDD3)
+mainPianoPhrase.addNoteList(PPP5, DDD5)
+mainPianoPhrase.addNoteList(PPP69, DDD69)
 
 
 
