@@ -23,8 +23,8 @@ score = Score()
 
 # Insert in the score all the instruments Parts
 score.addPart(PianoPart())
-score.addPart(TrombonePart())
 score.addPart(GuitarPart())
+score.addPart(TrombonePart())
 
 # play it
 View.sketch(score)

@@ -5,17 +5,12 @@
 # Ma. Isabel Solano 20504
 # Cristian Laynez 201281
 
-# Piano
+# Utils
 
 from music import *
 
-import Notes
-
-def PianoPart():
-    pianoPart = Part()
-    mainPianoPhrase = Phrase()
-    mainPianoPhrase.setTempo(190);
-       
-    pianoPart.addPhrase(mainPianoPhrase)
-    
-    return pianoPart
+def BeQuiet(notesList = []):
+    restNotes = []
+    for _ in range(len(notesList)):
+        restNotes.append(REST)
+    return restNotes

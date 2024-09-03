@@ -24,11 +24,11 @@ DDD4  = [QN, EN, EN + EN, QN, EN + EN, QN, EN + DQN,   SN]
 PPP5  = [E4, E4,      D4, E4,      C4, D4,      G4, D4, C4]
 DDD5  = [QN, EN, EN + EN, QN, EN + EN, QN, EN + EN, QN, EN]
 
-PPP6  = [C4, G4,      D4, G4, D4,      E4, REST, E4]
-DDD6  = [HN, QN, QN + QN, QN, QN, QN + HN,   EN, QN]
+PPP6  = [C4, G4,      D4, G4, D4,      E4, REST]
+DDD6  = [HN, QN, QN + QN, QN, QN, QN + HN,   EN]
 
-PPP7  = [C5, B4, G4, E4]
-DDD7  = [QN, QN, QN, QN]
+PPP7  = [E4, C5, B4, G4, E4]
+DDD7  = [QN, QN, QN, QN, QN]
 
 PPP8  = [G4,       A4, REST, E4]
 DDD8  = [DQN, EN + EN,   SN, QN]
@@ -84,11 +84,11 @@ DDD24 = [DQN, EN + QN, QN + HN,   EN, EN, EN, EN]
 PPP25 = [GS4,      E4,      B4, REST]
 DDD25 = [DQN, EN + QN, QN + HN,   HN]
 
-PPP26 = [E4, REST,     GS5, REST, A4]
-DDD26 = [QN,   EN, EN + EN,   EN, QN]
+PPP26 = [E4, REST,     GS5, REST, A4, REST,  B4]
+DDD26 = [QN,   EN, EN + EN,   EN, QN, EN, DQN]
 
-PPP27 = [REST,  B4, A4, E5, D5, REST, C5, D5, E5, G5, E5, D5, C5]
-DDD27 = [  EN, DQN, QN, QN, QN,   QN, QN, QN, QN, EN, EN, QN, QN]
+PPP27 = [A4, E5, D5, REST, C5, D5, E5, G5, E5, D5, C5]
+DDD27 = [QN, QN, QN,   QN, QN, QN, QN, EN, EN, QN, QN]
 
 PPP28 = [B4,       C5, REST, A4, E5]
 DDD28 = [DHN, QN + QN,   QN, QN, QN]
@@ -141,11 +141,11 @@ DDD43 = [QN, QN, QN, EN, EN + HN,  QN, QN]
 PPP44 = [E5,       A4,      D5, C5, REST, A4]
 DDD44 = [DQN, EN + QN, QN + QN, QN,   QN, QN]
 
-PPP45 = [E5,       A4,      G5, E5, D5, D5, E5,       E5, REST, B4, C5]
-DDD45 = [DQN, EN + QN, QN + QN, QN, QN, QN, QN, DHN + HN,   QN, EN, EN]
+PPP45 = [E5,       A4,      G5, E5, D5, D5, E5,       E5, REST]
+DDD45 = [DQN, EN + QN, QN + QN, QN, QN, QN, QN, DHN + HN,   QN]
 
-PPP46 = [ E4, D4, E4,  C4, A4]
-DDD46 = [DHN, EN, EN, DHN, QN]
+PPP46 = [B4, C5, E4, D4, E4,   C4, A4]
+DDD46 = [EN, EN, DHN, EN, EN, DHN, QN]
 
 PPP47 = [A4, REST, E4, G4, E4, E4, ES4]
 DDD47 = [QN,   QN, EN, SN, SN, EN,  EN]

@@ -11,20 +11,24 @@ from music import *
 
 import Notes
 
+from Utils import BeQuiet
+
 def TrombonePart():
-    trombonePart = Part(TROMBONE, 1)
+    trombonePart = Part(TROMBONE, 2)
     mainTrombonePhrase = Phrase()
     mainTrombonePhrase.setTempo(190)
     
-    # Add Notes
-    mainTrombonePhrase.addNoteList(Notes.PPP1, Notes.DDD1)
-    mainTrombonePhrase.addNoteList(Notes.PPP1, Notes.DDD1)
-    mainTrombonePhrase.addNoteList(Notes.PPP2, Notes.DDD2)
-    mainTrombonePhrase.addNoteList(Notes.PPP3, Notes.DDD3)
-    mainTrombonePhrase.addNoteList(Notes.PPP4, Notes.DDD4)
-    mainTrombonePhrase.addNoteList(Notes.PPP3, Notes.DDD3)
-    mainTrombonePhrase.addNoteList(Notes.PPP5, Notes.DDD5)
-    mainTrombonePhrase.addNoteList(Notes.PPP6, Notes.DDD6)
+    # Instrumental Introduction
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP1), Notes.DDD1)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP1), Notes.DDD1)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP2), Notes.DDD2)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP3), Notes.DDD3)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP4), Notes.DDD4)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP3), Notes.DDD3)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP5), Notes.DDD5)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP6), Notes.DDD6)
+    
+    # Voice Start
     mainTrombonePhrase.addNoteList(Notes.PPP7, Notes.DDD7)
     mainTrombonePhrase.addNoteList(Notes.PPP8, Notes.DDD8)
     mainTrombonePhrase.addNoteList(Notes.PPP7, Notes.DDD7)
@@ -55,7 +59,10 @@ def TrombonePart():
     mainTrombonePhrase.addNoteList(Notes.PPP24, Notes.DDD24)
     mainTrombonePhrase.addNoteList(Notes.PPP25, Notes.DDD25)
     
-    mainTrombonePhrase.addNoteList(Notes.PPP26, Notes.DDD26)
+    # Instrumental
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP26), Notes.DDD26)
+    
+    # Voice Continue
     mainTrombonePhrase.addNoteList(Notes.PPP27, Notes.DDD27)
     mainTrombonePhrase.addNoteList(Notes.PPP28, Notes.DDD28)
     mainTrombonePhrase.addNoteList(Notes.PPP29, Notes.DDD29)
@@ -97,16 +104,18 @@ def TrombonePart():
     mainTrombonePhrase.addNoteList(Notes.PPP44, Notes.DDD44)
     mainTrombonePhrase.addNoteList(Notes.PPP45, Notes.DDD45)
     
-    mainTrombonePhrase.addNoteList(Notes.PPP46, Notes.DDD46)
-    mainTrombonePhrase.addNoteList(Notes.PPP47, Notes.DDD47)
-    mainTrombonePhrase.addNoteList(Notes.PPP48, Notes.DDD48)
-    mainTrombonePhrase.addNoteList(Notes.PPP49, Notes.DDD49)
-    mainTrombonePhrase.addNoteList(Notes.PPP50, Notes.DDD50)
-    mainTrombonePhrase.addNoteList(Notes.PPP51, Notes.DDD51)
-    mainTrombonePhrase.addNoteList(Notes.PPP52, Notes.DDD52)
-    mainTrombonePhrase.addNoteList(Notes.PPP52, Notes.DDD53)
-    mainTrombonePhrase.addNoteList(Notes.PPP54, Notes.DDD54)
+    # Instrumental
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP46), Notes.DDD46)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP47), Notes.DDD47)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP48), Notes.DDD48)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP49), Notes.DDD49)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP50), Notes.DDD50)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP51), Notes.DDD51)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP52), Notes.DDD52)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP52), Notes.DDD53)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP54), Notes.DDD54)
     
+    # Voice Continue
     mainTrombonePhrase.addNoteList(Notes.PPP55, Notes.DDD55)
     mainTrombonePhrase.addNoteList(Notes.PPP56, Notes.DDD56)
     mainTrombonePhrase.addNoteList(Notes.PPP57, Notes.DDD57)
@@ -127,9 +136,11 @@ def TrombonePart():
     mainTrombonePhrase.addNoteList(Notes.PPP62, Notes.DDD62)
     mainTrombonePhrase.addNoteList(Notes.PPP67, Notes.DDD67)
     mainTrombonePhrase.addNoteList(Notes.PPP68, Notes.DDD68)
-    mainTrombonePhrase.addNoteList(Notes.PPP3, Notes.DDD3)
-    mainTrombonePhrase.addNoteList(Notes.PPP5, Notes.DDD5)
-    mainTrombonePhrase.addNoteList(Notes.PPP69, Notes.DDD69)
+    
+    # Finalizing with Instrumental Part
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP3), Notes.DDD3)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP5), Notes.DDD5)
+    mainTrombonePhrase.addNoteList(BeQuiet(Notes.PPP69), Notes.DDD69)
     
     trombonePart.addPhrase(mainTrombonePhrase)
     
