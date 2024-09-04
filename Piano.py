@@ -9,12 +9,34 @@
 
 from music import *
 
-import Notes
+import NotesSecundaryMelody
+from Utils import BeQuiet
 
 def PianoPart():
     pianoPart = Part()
     mainPianoPhrase = Phrase()
-    mainPianoPhrase.setTempo(190);
+    mainPianoPhrase.setTempo(190)
+    
+    # Introduction
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP1, NotesSecundaryMelody.DDD1)
+    
+    # Start Epic Piano
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP2, NotesSecundaryMelody.DDD2)
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP2, NotesSecundaryMelody.DDD2)
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP2, NotesSecundaryMelody.DDD2)
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP2, NotesSecundaryMelody.DDD2)
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP3, NotesSecundaryMelody.DDD3)
+    mainPianoPhrase.addNoteList(BeQuiet(NotesSecundaryMelody.PPP3), NotesSecundaryMelody.DDD3)
+    mainPianoPhrase.addNoteList(BeQuiet(NotesSecundaryMelody.PPP3), NotesSecundaryMelody.DDD3)
+    
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP4, NotesSecundaryMelody.DDD4)
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP4, NotesSecundaryMelody.DDD4)
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP5, NotesSecundaryMelody.DDD5)
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP5, NotesSecundaryMelody.DDD5)
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP6, NotesSecundaryMelody.DDD6)
+    
+    # Chords for acompaning the voice
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP7, NotesSecundaryMelody.DDD7)    
        
     pianoPart.addPhrase(mainPianoPhrase)
     

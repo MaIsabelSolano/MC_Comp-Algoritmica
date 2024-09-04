@@ -17,6 +17,7 @@ from Guitar import GuitarPart
 # https://www.youtube.com/watch?v=rZLNxpz5bfY (trombon)
 # https://musescore.com/user/9026011/scores/2688026 (notas de abajo)
 # https://musescore.com/user/29706205/scores/6033100 (alternativa)
+# https://www.youtube.com/watch?v=H0pm-00elvo (Piano para los precoros)
 ## ====================================================================
 
 score = Score()
