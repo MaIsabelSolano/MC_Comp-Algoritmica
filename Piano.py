@@ -9,6 +9,7 @@
 
 from music import *
 
+import NotesMainMelody
 import NotesSecundaryMelody
 from Utils import BeQuiet
 
@@ -38,11 +39,18 @@ def PianoPart():
     # Chords for acompaning the voice - Voice Start
     mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP7, NotesSecundaryMelody.DDD7)
     mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP7, NotesSecundaryMelody.DDD7)
-
+    
+    mainPianoPhrase.addNoteList([REST], [EN])
     mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP8, NotesSecundaryMelody.DDD8)
     mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP8, NotesSecundaryMelody.DDD8_1)
 
+    # Instrumental Part
+    mainPianoPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP26), NotesMainMelody.DDD26)
+    
+    # mainPianoPhrase.addNoteList([REST], [QN + QN]) # For Testign Apart
     # Main Choir
+    mainPianoPhrase.addNoteList([REST], [QN + QN + QN + EN])
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP9, NotesSecundaryMelody.DDD9)
        
     pianoPart.addPhrase(mainPianoPhrase)
     

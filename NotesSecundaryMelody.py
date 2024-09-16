@@ -9,8 +9,13 @@
 
 from music import *
 
-PPP1 = [REST, REST, REST, REST, REST, REST]
-DDD1 = [QN  , QN  , DQN , QN + EN, HN,  EN]
+# PPP1 = [REST, REST, REST, REST, REST, REST]
+# DDD1 = [QN  , QN  , DQN , QN + EN, HN,  EN]
+#       1     1     1.5   1  + 0.5
+#       5
+
+PPP1 = [[CS3, E3, GS2], REST, REST]
+DDD1 = [WN + QN, HN,  EN]
 
 PPP2 = [B4, B4, B4, B4, B4, B4]
 DDD2 = [EN, EN, EN, EN, EN, EN]
@@ -43,5 +48,18 @@ DDD8 = [
 ]
 DDD8_1 = [
     DHN + EN, WN + WN, WN, WN, WN, WN + HN, WN
+]
+
+PPP9 = [
+    [A3, CS4, E4], [GS3, B3, DS4], [CS3, E3, GS3], [CS3, E3, GS3],
+    [FS3, A3, CS4], [B2, DS3, FS3], [CS3, E3, GS3], [CS3, E3, GS3],
+    [A3, CS4, E4], [GS3, B3, DS4], [CS3, E3, GS3], [CS3, E3, GS3],
+    [FS3, A3, CS4], [GS3, B3, DS4], [A3, CS4, E4], [B2, DS3, FS3], [A3, CS4, E4], [A3, CS4, E4]
+]
+DDD9 = [
+    WN + DHN, WN + QN, HN + QN, HN ,
+    WN + DHN + QN, WN + QN, HN + QN, HN + QN,
+    WN + HN, WN, HN + QN, HN ,
+    WN + DHN, WN + QN, HN, HN, QN, QN
 ]
 

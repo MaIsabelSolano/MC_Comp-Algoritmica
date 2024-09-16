@@ -72,7 +72,8 @@ def TrombonePart():
     
     mainTrombonePhrase.addNoteList(NotesMainMelody.PPP33, NotesMainMelody.DDD33)
     mainTrombonePhrase.addNoteList(NotesMainMelody.PPP34, NotesMainMelody.DDD34)
-    
+
+    # Pre-Choir #2
     mainTrombonePhrase.addNoteList(NotesMainMelody.PPP35, NotesMainMelody.DDD35)
     mainTrombonePhrase.addNoteList(NotesMainMelody.PPP7, NotesMainMelody.DDD7)
     mainTrombonePhrase.addNoteList(NotesMainMelody.PPP8, NotesMainMelody.DDD8)
