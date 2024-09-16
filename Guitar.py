@@ -62,7 +62,7 @@ def GuitarPart():
     # Instrumental
     mainGuitarPhrase.addNoteList(NotesMainMelody.PPP26, NotesMainMelody.DDD26)
     
-    # Voice Continue
+    # Voice Continue # Main Choir
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP27), NotesMainMelody.DDD27)
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP28), NotesMainMelody.DDD28)
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP29), NotesMainMelody.DDD29)

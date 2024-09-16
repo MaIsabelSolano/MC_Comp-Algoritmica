@@ -35,8 +35,14 @@ def PianoPart():
     mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP5, NotesSecundaryMelody.DDD5)
     mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP6, NotesSecundaryMelody.DDD6)
     
-    # Chords for acompaning the voice
-    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP7, NotesSecundaryMelody.DDD7)    
+    # Chords for acompaning the voice - Voice Start
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP7, NotesSecundaryMelody.DDD7)
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP7, NotesSecundaryMelody.DDD7)
+
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP8, NotesSecundaryMelody.DDD8)
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP8, NotesSecundaryMelody.DDD8_1)
+
+    # Main Choir
        
     pianoPart.addPhrase(mainPianoPhrase)
     

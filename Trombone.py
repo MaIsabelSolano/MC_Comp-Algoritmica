@@ -62,7 +62,7 @@ def TrombonePart():
     # Instrumental
     mainTrombonePhrase.addNoteList(BeQuiet(NotesMainMelody.PPP26), NotesMainMelody.DDD26)
     
-    # Voice Continue
+    # Voice Continue # Main Choir
     mainTrombonePhrase.addNoteList(NotesMainMelody.PPP27, NotesMainMelody.DDD27)
     mainTrombonePhrase.addNoteList(NotesMainMelody.PPP28, NotesMainMelody.DDD28)
     mainTrombonePhrase.addNoteList(NotesMainMelody.PPP29, NotesMainMelody.DDD29)
