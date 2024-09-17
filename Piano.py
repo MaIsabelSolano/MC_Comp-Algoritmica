@@ -51,6 +51,19 @@ def PianoPart():
     # Main Choir
     mainPianoPhrase.addNoteList([REST], [QN + QN + QN + EN])
     mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP9, NotesSecundaryMelody.DDD9)
+    
+    mainPianoPhrase.addNoteList([REST], [QN + WN + HN])    
+    # Pre-Choir #2
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP7, NotesSecundaryMelody.DDD7)
+    
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP8, NotesSecundaryMelody.DDD8)
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP8, NotesSecundaryMelody.DDD8_1)
+    
+    # Instrumental Part
+    mainPianoPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP26), NotesMainMelody.DDD26)
+    
+    # Main Choir
+    mainPianoPhrase.addNoteList(NotesSecundaryMelody.PPP9, NotesSecundaryMelody.DDD9)
        
     pianoPart.addPhrase(mainPianoPhrase)
     
