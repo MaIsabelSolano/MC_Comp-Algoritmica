@@ -10,6 +10,7 @@
 from music import *
 
 import NotesMainMelody
+import NotesSecundaryMelody
 
 from Utils import BeQuiet
 
@@ -30,30 +31,54 @@ def GuitarPart():
     
     # Voice Start
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP7), NotesMainMelody.DDD7)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP8), NotesMainMelody.DDD8)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP7), NotesMainMelody.DDD7)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP9), NotesMainMelody.DDD9)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP10), NotesMainMelody.DDD10)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP11), NotesMainMelody.DDD11)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP12), NotesMainMelody.DDD12)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP13), NotesMainMelody.DDD13)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP14), NotesMainMelody.DDD14)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP15), NotesMainMelody.DDD15) # **
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP7), NotesMainMelody.DDD7)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP8), NotesMainMelody.DDD8)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP7), NotesMainMelody.DDD7)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP9), NotesMainMelody.DDD9)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP10), NotesMainMelody.DDD10)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP11), NotesMainMelody.DDD11)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP12), NotesMainMelody.DDD12)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP16), NotesMainMelody.DDD16)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP17), NotesMainMelody.DDD17)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP18), NotesMainMelody.DDD18)
-    
+#    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP8), NotesMainMelody.DDD8)
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP1, NotesSecundaryMelody.GDDD1)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP2, NotesSecundaryMelody.GDDD2)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP2, NotesSecundaryMelody.GDDD2)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP3, NotesSecundaryMelody.GDDD3)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP4, NotesSecundaryMelody.GDDD4)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP4, NotesSecundaryMelody.GDDD4)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP4, NotesSecundaryMelody.GDDD4)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP5, NotesSecundaryMelody.GDDD5)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList([REST], [QN])
+#    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP7), NotesMainMelody.DDD7)
+#    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP9), NotesMainMelody.DDD9)
+#    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP10), NotesMainMelody.DDD10)
+#    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP11), NotesMainMelody.DDD11)
+#    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP12), NotesMainMelody.DDD12)
+#    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP13), NotesMainMelody.DDD13)
+#    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP14), NotesMainMelody.DDD14)
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP1, NotesSecundaryMelody.GDDD1)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP2, NotesSecundaryMelody.GDDD2)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP2, NotesSecundaryMelody.GDDD2)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP3, NotesSecundaryMelody.GDDD3)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP4, NotesSecundaryMelody.GDDD4)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP4, NotesSecundaryMelody.GDDD4)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP4, NotesSecundaryMelody.GDDD4)
+    mainGuitarPhrase.addNoteList([REST], [QN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP5, NotesSecundaryMelody.GDDD5)
+    mainGuitarPhrase.addNoteList([REST], [EN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP6, NotesSecundaryMelody.GDDD6)
+
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP19), NotesMainMelody.DDD19)
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP20), NotesMainMelody.DDD20)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP21), NotesMainMelody.DDD21)
-    
+    mainGuitarPhrase.addNoteList([REST], [WN + WN + HN + HN])
+    mainGuitarPhrase.addNoteList(NotesSecundaryMelody.GPPP6, NotesSecundaryMelody.GDDD6)
+
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP22), NotesMainMelody.DDD22)
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP23), NotesMainMelody.DDD23)
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP24), NotesMainMelody.DDD24)
@@ -118,7 +143,8 @@ def GuitarPart():
     
     # Voice Continue
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP55), NotesMainMelody.DDD55)
-    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP56), NotesMainMelody.DDD56)
+    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP56), NotesMainMelody.DDD56)        
+    mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP55), NotesMainMelody.DDD55)
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP57), NotesMainMelody.DDD57)
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP58), NotesMainMelody.DDD58)
     mainGuitarPhrase.addNoteList(BeQuiet(NotesMainMelody.PPP59), NotesMainMelody.DDD59)

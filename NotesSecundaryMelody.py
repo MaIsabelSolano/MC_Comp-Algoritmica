@@ -14,6 +14,7 @@ from music import *
 #       1     1     1.5   1  + 0.5
 #       5
 
+# FOR PIANO
 PPP1 = [[CS3, E3, GS2], REST, REST]
 DDD1 = [WN + QN, HN,  EN]
 
@@ -62,4 +63,23 @@ DDD9 = [
     WN + HN, WN, HN + QN, HN ,
     WN + DHN, WN + QN, HN, HN, QN, QN
 ]
+
+# FOR GUITAR
+GPPP1 = [C3, B3, E4, D4, B3, G3]
+GDDD1 = [QN, QN, DQN, DQN, QN, QN]
+
+GPPP2 = [A2, B3, E4, D4, B3]
+GDDD2 = [QN, QN, DQN, DQN, DQN]
+
+GPPP3 = [E2, B3, E4, D4, B3]
+GDDD3 = [QN, QN, DQN, DQN, DQN]
+
+GPPP4 = [F2, B3, E4, D4, E4]
+GDDD4 = [QN, QN, DQN, DQN, DQN]
+
+GPPP5 = [G2, CS4, D4]
+GDDD5 = [QN, QN, QN]
+
+GPPP6 = [C2, G2, C3, F3, G3, F3, B2, C3]
+GDDD6 = [EN, EN, EN, SN, SN, EN, EN, QN]
 
